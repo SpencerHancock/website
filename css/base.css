@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: border-box;
+  overflow: hidden;
+  background: darkgrey;
+}
+
+/* ----------------------------------navbar--------------------------------------------- */
+.navbar {
+  height: 4.5rem;
+  /* poop */
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 5;
+  list-style: none;
+}
+
+.navbar-brand img {
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+
+@media (max-width: 40rem) {
+  .navbar-brand img {
+    width: 3rem;
+  }
+}
+@media (min-width: 40rem) {
+  .navbar-brand img {
+    width: 4rem;
+  }
+}
+/* -------------------------------------------footer---------------------------------------------- */
+.footer {
+  height: 200px;
+}
+
+.social-buttons {
+  color: white;
+  text-decoration: none;
+}
+.social-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-buttons:hover a {
+  color: grey;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=base.css.map */

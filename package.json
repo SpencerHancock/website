@@ -1,0 +1,27 @@
+{
+  "name": "spencerhancock.com",
+  "version": "1.0.0",
+  "description": "spencer's website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "npm run watch:all",
+    "watch:scss": "onchange 'sass' -- sass sass:css",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+  },
+  "author": "spencer hancock",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "onchange": "^6.0.0",
+    "sass": "^1.22.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

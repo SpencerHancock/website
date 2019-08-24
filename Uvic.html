@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <META HTTP-EQUIV="refresh" CONTENT="URL='/'">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/Uvic.css">
+    </head>
+    <body>
+
+        <!-- ----------------------------- Navigation --------------------------------------------- -->
+        <div class="homepage-nav" id="homepage-nav">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarLinks">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Uvic.html" class="nav-link">Uvic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Coursera.html" class="nav-link">E-learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#CPI" class="nav-link">CPI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Highschool" class="nav-link">High School</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#personal" class="nav-link">Personal</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </nav>
+        </div>
+        <!-- ----------------------------------------------body--------------------------------------------------- -->
+        <!-- ---------------------------------------------hero---------------------------------------------------- -->
+        <div class="uvic-hero" id="uvic-hero">
+            <div class="text-light row front-text d-none d-md-block">
+              <h1 >University of Victoria</h1>
+              <p >Uvic has become my home. It's where I've learned about the struggles of living on my own, and the excitement of endless opportunity.</p>
+            </div>
+              <p class="button see-more-button">
+                  <span class="col-12">See More</span>
+                  <span class="col-12 fa fa-chevron-down fa-lg"></span>
+              </p >
+          </div>
+        <!-- -------------------------------------------------media------------------------------------------------ -->
+
+        <div class="media row">
+            <img src="./img/UvicSchulich.jpg" class="pt-3 pb-3 m-auto w-100 col-md-5" alt="...">
+            <div class="pt-5 col-md-6">
+              <h5 >Schulich Leader Scholarship</h5>
+              <p class="Schulich-News">
+                "Two BC high school students have received prestigious scholarship awards as they launch into their first year of study at the University of Victoria.
+                Spencer Hancock of Coombs, a graduate of Ballenas Secondary School in Parksville, is recipient of the $100,000 2018 Schulich Leader Scholarship in Engineering. 
+                Karlee Zaruk, of Oak Bay High School in Oak Bay is recipient of the $80,000 Schulich Leader Scholarship in Science. Both students were selected for 
+                outstanding academic achievement and community service, core requirements of the awards.
+                This year, from a pool of 350,000 potential candidates across Canada, 1,400 students were nominated. Of these, 50 received this celebrated award. Two chose to study at UVic."
+                -- Paul Marck (University Communications + Marketing), Aug 22, 2018.
+              </p>
+            </div>
+          </div>
+          <div class="media row">
+            <div class="pt-5 col-md-6">
+                <h5 >Go-CRD</h5>
+                <p class="Schulich-News">
+                    Go-CRD was a group project through the University of Victoria to help reduce traffic congestion within the Capital Regional District. Through a weighted objectives 
+                    matrix we determined that an App, Go-CRD, would be the best solution. Our group made it to the final competition and among 200 some odd teams placed fourth. Part of 
+                    my contribution was a last minute prototype which involved a home, login and registration page to help give the feel of the app
+                </p>
+            </div>
+            <img src="./img/Go-CRD.jpg" class="order-first order-md-last pt-3 pb-3 m-auto w-100 col-md-5" alt="...">
+          </div>
+          <div class="media row">
+                <img src="./img/VictoriaHandProkect.jpg" class="pt-3 pb-3 m-auto w-100 col-md-5" alt="...">
+                <div class="pt-5 col-md-6">
+                        <h5 >Victoria Hand Project</h5>
+                        <p class="Schulich-News">
+                            Through, Austin Sawyer, another Schulich Leader at Uvic, I learned about the Victoria Hand Project, a really interesting non-profit that 3D-prints prothetics 
+                            for amputees that cannot afford a more traditional prosthetic. I volunteer with the Victoria Hand Project by building prosthetics for them to 
+                            send all over the world.
+                         </p>
+                    </div>
+              </div>
+
+        <!-- ----------------------------------------------footer--------------------------------------------------- -->
+        <footer class="footer bg-dark text-light">
+            <div class="row">
+                <div class="offset-1 col-5">
+                    <h2>Contact:</h2>
+                    <p class=>Phone: 244400040204</p>
+                    
+                    
+                  </div>
+                  <div class="col-6 ">
+                    <h2>Social:</h2>
+                    <p class="social-buttons row mr-2">Facebook &nbsp; <a href="#"><span class="fa fa-facebook fa-lg"></span></a></p>
+                    <p class="social-buttons row mr-2">Linked-In &nbsp; <a href="#"><span class="fa fa-linkedin fa-lg"></span></a></p>
+                    <p class="social-buttons row mr-2">Email <a href="mailto:spencerjhancock@gmail.com"> &nbsp;<span class="fa fa-envelope fa-lg"></span></a></p>
+                  </div>
+            </div>
+          </footer>
+  
+          <script src="/node_modules/jquery/dist/jquery.js"></script>
+          <script src="/node_modules/popper.js/dist/popper.js"></script>
+          <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+          <script>
+          $(".see-more-button").click(function(){
+            document.querySelector('.media').scrollIntoView({ 
+            behavior: 'smooth' 
+            });
+          });
+  
+          </script>
+  
+          
+  
+      </body>
+  
+  
+  </html>
+  

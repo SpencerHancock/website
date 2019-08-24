@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <META HTTP-EQUIV="refresh" CONTENT="URL='/'">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/Coursera.css">
+    </head>
+    <body>
+
+        <!-- ----------------------------- Navigation --------------------------------------------- -->
+        <div class="homepage-nav" id="homepage-nav">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarLinks">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Uvic.html" class="nav-link">Uvic</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Coursera.html" class="nav-link">E-Learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#CPI" class="nav-link">CPI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Highschool" class="nav-link">High School</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#personal" class="nav-link">Personal</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </nav>
+        </div>
+        <!-- ----------------------------------------------body--------------------------------------------------- -->
+        <!-- ---------------------------------------------hero---------------------------------------------------- -->
+        <div class="uvic-hero" id="uvic-hero">
+              <p class="button see-more-button">
+                  <span class="col-12">See More</span>
+                  <span class="col-12 fa fa-chevron-down fa-lg"></span>
+              </p >
+          </div>
+        <!-- -------------------------------------------------media------------------------------------------------ -->
+
+        <div class="media row">
+            <img src="./img/Bootstrap.png" class="pt-3 pb-3 m-auto w-100 col-md-5" alt="...">
+            <div class="pt-5 col-md-6">
+              <h5 >Bootstrap and Node Basics/h5>
+              <p class="Schulich-News">
+                This is the first Course in a five course specialization from the University of Hong Kong about front-end web-development. Since I found front-end web-development
+                really tedious when I designed the asthetic of PrimusLink for CPI, I decided to take this course as a means of accelerating that process. I also intend to complete the rest of the 
+                specialization, the second course of which I have nearly completed.
+              </p>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------footer--------------------------------------------------- -->
+        <footer class="footer bg-dark text-light">
+            <div class="row">
+                <div class="offset-1 col-5">
+                    <h2>Contact:</h2>
+                    <p class=>Phone: 244400040204</p>
+                    
+                    
+                  </div>
+                  <div class="col-6 ">
+                    <h2>Social:</h2>
+                    <p class="social-buttons row mr-2">Facebook &nbsp; <a href="#"><span class="fa fa-facebook fa-lg"></span></a></p>
+                    <p class="social-buttons row mr-2">Linked-In &nbsp; <a href="#"><span class="fa fa-linkedin fa-lg"></span></a></p>
+                    <p class="social-buttons row mr-2">Email <a href="mailto:spencerjhancock@gmail.com"> &nbsp;<span class="fa fa-envelope fa-lg"></span></a></p>
+                  </div>
+            </div>
+          </footer>
+  
+          <script src="/node_modules/jquery/dist/jquery.js"></script>
+          <script src="/node_modules/popper.js/dist/popper.js"></script>
+          <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+          <script>
+          $(".see-more-button").click(function(){
+            document.querySelector('.media').scrollIntoView({ 
+            behavior: 'smooth' 
+            });
+          });
+  
+          </script>
+  
+          
+  
+      </body>
+  
+  
+  </html>
+  

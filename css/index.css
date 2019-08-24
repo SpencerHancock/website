@@ -1,0 +1,77 @@
+/* --------------------------------------- Homepage-hero ----------------------------------------------- */
+.container {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-hero {
+  height: 100vh;
+  margin-top: -4.5rem;
+  width: 100%;
+  vertical-align: bottom;
+  float: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.homepage-hero .front-text {
+  height: 30vh;
+  text-align: left;
+  vertical-align: center;
+  position: relative;
+  left: 25%;
+  top: 30%;
+}
+.homepage-hero .front-text h1 {
+  font-size: 4vw;
+  font-family: "Montserrat", sans-serif;
+}
+.homepage-hero .front-text p {
+  width: 50%;
+  margin: 0;
+  font-size: 2rem;
+}
+.homepage-hero p {
+  margin: 0 auto;
+}
+.homepage-hero .fa-arrow-down {
+  font-size: 1.5rem;
+}
+.homepage-hero .see-more-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-decoration: none;
+}
+.homepage-hero .see-more-button:hover {
+  color: grey;
+}
+
+@media (min-width: 40rem) {
+  .homepage-hero {
+    background: url("../img/schulich.jpg") right center;
+    background-size: cover;
+  }
+}
+@media (max-width: 40rem) {
+  .homepage-hero {
+    background: url("../img/family.jpg") center top;
+    background-size: cover;
+    padding-top: 90vh;
+  }
+}
+/* ------------------------------------JumboTron------------------------------------ */
+.jumbotron {
+  margin-bottom: 0;
+}
+
+/* -----------------------------------HomePage Carousel ---------------------------------------------- */
+.homepage-carousel {
+  background: grey;
+}
+
+/*# sourceMappingURL=index.css.map */
