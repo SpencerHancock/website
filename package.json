@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run watch:all",
+    "start": "node index.js",
     "watch:scss": "onchange 'sass' -- sass sass:public/css",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
