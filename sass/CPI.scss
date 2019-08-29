@@ -1,0 +1,114 @@
+$accent-color: #FFFFE5;
+$background-colour-dark: darkgrey;
+
+
+/* --------------------------------------Uvic Hero--------------------------------------------- */
+
+.container {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .uvic-hero {
+    height: 100vh;
+    margin-top:-4.5rem;
+    width: 100%;
+    vertical-align: bottom;
+    float:center;
+    text-align: center;
+    font-size: 1.5rem;
+      .front-text{
+        height: 30vh;
+        text-align: left;
+        vertical-align: center;
+        position: relative;
+        left: 25%;
+        top:30%;
+        h1{
+          font-size: 4vw;
+          font-family: 'Montserrat', sans-serif;
+        }
+        p{
+          width:50%;
+          margin:0;
+          font-size: 2rem;
+        }
+      }
+      p{
+        margin:0 auto;
+      }
+      .fa-arrow-down{
+        font-size: 1.5rem;
+      }
+      .see-more-button{
+        position: absolute;
+        bottom:0;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color:white;
+        text-decoration: none;
+      }
+      .see-more-button:hover{
+        color:grey;
+      }
+    }
+
+  
+
+
+  @media(min-width: 40rem){
+    .uvic-hero{
+      background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url("../img/CPI.png") center center;
+      background-size: cover;
+    }
+  }
+
+  @media(max-width: 40rem){
+    .uvic-hero{
+      background: url("../img/CPI.png") center center;
+      background-size: cover;
+      padding-top:90vh;
+    }
+  }
+  /* -----------------------------------------------------media----------------------------------------------- */
+  .media{
+    margin: 2rem auto;
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  .primusTall{
+      max-width:20rem;
+  }
+
+
+
+
+
+  @media(min-width:40rem){
+  .media{
+    width: 80%;
+    img{
+      width:100%;
+      margin: auto auto;
+    }
+  }
+}
+
+  @media(max-width: 40rem){
+    .media{
+      width: 100%;
+
+      img{
+        width:100%;
+        margin: auto auto;
+      }
+    }
+  }

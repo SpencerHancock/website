@@ -1,0 +1,94 @@
+/* --------------------------------------Uvic Hero--------------------------------------------- */
+.container {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.highschool-hero {
+  height: 100vh;
+  margin-top: -4.5rem;
+  width: 100%;
+  vertical-align: bottom;
+  float: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.highschool-hero .front-text {
+  height: 30vh;
+  text-align: left;
+  vertical-align: center;
+  position: relative;
+  left: 25%;
+  top: 30%;
+}
+.highschool-hero .front-text h1 {
+  font-size: 4vw;
+  font-family: "Montserrat", sans-serif;
+}
+.highschool-hero .front-text p {
+  width: 50%;
+  margin: 0;
+  font-size: 2rem;
+}
+.highschool-hero p {
+  margin: 0 auto;
+}
+.highschool-hero .fa-arrow-down {
+  font-size: 1.5rem;
+}
+.highschool-hero .see-more-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-decoration: none;
+}
+.highschool-hero .see-more-button:hover {
+  color: grey;
+}
+
+@media (min-width: 40rem) {
+  .highschool-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/BallenasGarageSale.jpg") center center;
+    background-size: cover;
+  }
+}
+@media (max-width: 40rem) {
+  .highschool-hero {
+    background: url("../img/BallenasGarageSale.jpg") center center;
+    background-size: cover;
+    padding-top: 90vh;
+  }
+}
+/* -----------------------------------------------------media----------------------------------------------- */
+.media {
+  margin: 2rem auto;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+@media (min-width: 40rem) {
+  .media {
+    width: 80%;
+  }
+  .media img {
+    width: 100%;
+    margin: auto auto;
+  }
+}
+@media (max-width: 40rem) {
+  .media {
+    width: 100%;
+  }
+  .media img {
+    width: 100%;
+    margin: auto auto;
+  }
+}
+
+/*# sourceMappingURL=highSchool.css.map */

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
     "start": "npm run watch:all",
-    "watch:scss": "onchange 'sass' -- sass sass:css",
+    "watch:scss": "onchange 'sass' -- sass sass:public/css",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
   "author": "spencer hancock",
@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
