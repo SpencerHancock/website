@@ -2,7 +2,7 @@
   "name": "spencerhancock.com",
   "version": "1.0.0",
   "description": "spencer's website",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
