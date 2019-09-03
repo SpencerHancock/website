@@ -65,14 +65,14 @@ $background-colour-dark: darkgrey;
       background: linear-gradient(
         rgba(0, 0, 0, 0.4), 
         rgba(0, 0, 0, 0.4)
-      ), url("../img/BallenasGarageSale.jpg") center center;
+      ), url("../img/thailand.jpg") center center;
       background-size: cover;
     }
   }
 
   @media(max-width: 40rem){
     .personal-hero{
-      background: url("../img/BallenasGarageSale.jpg") center center;
+      background: url("../img/thailand.jpg") center center;
       background-size: cover;
       padding-top:90vh;
     }

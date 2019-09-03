@@ -74,4 +74,14 @@
   background: grey;
 }
 
+.carousel-item img {
+  size: fit;
+}
+
+@media (max-width: 40rem) {
+  .carousel-item {
+    height: 30vh;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
