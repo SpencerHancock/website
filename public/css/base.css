@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth;
+  max-width:100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   border: border-box;
-  overflow: hidden;
   background: darkgrey;
 }
 
